@@ -6,3 +6,4 @@ Uses the default Node.js [Docker container](https://registry.hub.docker.com/u/li
 
 ---
 Sign up for wercker [here](http://wercker.com)
+Learn more on our [dev center](http://devcenter.wercker.com)
