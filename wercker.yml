@@ -5,10 +5,13 @@ dev:
     - internal/watch:
         code: node app.js
         reload: true
+
 # Build definition
 build:
   # The steps that will be executed on build
   steps:
+    - script:
+        code: export NODE_ENV='testing'
     # A step that executes `npm install` command
     - npm-install
     # A step that executes `npm test` command
