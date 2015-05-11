@@ -1,4 +1,10 @@
 box: nodesource/trusty
+dev:
+  steps:
+    - npm-install
+    - internal/watch:
+        code: node app.js
+        reload: true
 # Build definition
 build:
   # The steps that will be executed on build
