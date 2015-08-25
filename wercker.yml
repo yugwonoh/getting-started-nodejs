@@ -1,12 +1,4 @@
 box: nodesource/trusty
-dev:
-  steps:
-    - npm-install
-    - internal/watch:
-        code: node app.js
-        reload: true
-
-# Build definition
 build:
   # The steps that will be executed on build
   steps:
@@ -24,4 +16,8 @@ build:
         code: |
           echo "node version $(node -v) running"
           echo "npm version $(npm -v) running"
-
+  after-steps:
+    - keen:
+       project_id: $KEEN_PROJECT_ID
+       write_key: $KEEN_WRITE_KEY
+       event_name: "build-event"
