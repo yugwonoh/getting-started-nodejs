@@ -1,4 +1,7 @@
-box: node:4.2.6-slim
+box: 
+  id: node:4.2.6-slim
+  ports: 
+    - "5000"
 dev:
   steps:
     - npm-install
