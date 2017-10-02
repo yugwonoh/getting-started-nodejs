@@ -1,8 +1,8 @@
-# getting-started-node.js
+# getting-started-javascript
 
 [![wercker status](https://app.wercker.com/status/7b1a402dd00d57fc9abddf9eb5161675/s "wercker status")](https://app.wercker.com/project/bykey/7b1a402dd00d57fc9abddf9eb5161675)
 
-A sample application in Go for Wercker.
+A sample application in Javascript on NodeJS for Wercker.
 
 This application uses the `node` container obtained from the [Docker Hub](https://hub.docker.com/_/node/)
 
@@ -10,8 +10,8 @@ This application uses the `node` container obtained from the [Docker Hub](https:
 Clone or fork this repo and cd into the directory:
 
 ```
-git clone https://github.com/wercker/getting-started-javascript.git
-cd getting-started-javascript
+git clone https://github.com/wercker/getting-started-nodejs.git
+cd getting-started-nodejs
 ```
 
 ## Running
