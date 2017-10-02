@@ -1,7 +1,8 @@
 box: 
-  id: node:4.2.6-slim
+  id: node:latest
   ports: 
-    - "5000"
+    - "8080"
+    
 dev:
   steps:
     - npm-install
