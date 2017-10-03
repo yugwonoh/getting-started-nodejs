@@ -1,4 +1,4 @@
-# getting-started-javascript
+# getting-started-nodejs
 
 [![wercker status](https://app.wercker.com/status/7b1a402dd00d57fc9abddf9eb5161675/s "wercker status")](https://app.wercker.com/project/bykey/7b1a402dd00d57fc9abddf9eb5161675)
 
