@@ -7,7 +7,7 @@ A sample application in Javascript on NodeJS for Wercker.
 This application uses the `node` container obtained from the [Docker Hub](https://hub.docker.com/_/node/)
 
 ## Setup
-Clone or fork this repo and cd into the directory:
+Clone this repo and cd into the directory:
 
 ```
 git clone https://github.com/wercker/getting-started-nodejs.git
