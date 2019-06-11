@@ -7,7 +7,7 @@ app.get('/', function(req, res){
     res.write(JSON.stringify(cities));
     res.end();
 });
-
+app.get('/health', (req, res) => res.send({"status": "OK", "time": new Date()}))
 var port = process.env.PORT || 8080;
 app.listen(port);
 
