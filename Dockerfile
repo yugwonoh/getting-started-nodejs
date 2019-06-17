@@ -8,4 +8,4 @@ ENTRYPOINT ["/tini", "--"]
 COPY /.  .
 RUN npm install
 
-CMD ["node","app.js"]
+CMD ["node","mode/app.js"]
