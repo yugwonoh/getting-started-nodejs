@@ -6,7 +6,7 @@
 This application uses the `node` container obtained from the [Docker Hub](https://hub.docker.com/_/node/)
 
 ## Setup
-Clone this repo and cd into the directory:
+lone this repo and cd into the directory:
 
 ```
 git clone https://github.com/wercker/getting-started-nodejs.git
