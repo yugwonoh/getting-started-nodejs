@@ -3,7 +3,7 @@
 [![wercker status](https://app.wercker.com/status/7b1a402dd00d57fc9abddf9eb5161675/s "wercker status")](https://app.wercker.com/project/bykey/7b1a402dd00d57fc9abddf9eb5161675)
 A sample application in Javascript on NodeJS for Wercker
 
-This application uses the `node` container obtained from the [Docker Hub](https://hub.docker.com/_/node/)
+his application uses the `node` container obtained from the [Docker Hub](https://hub.docker.com/_/node/)
 
 ## Setup
 Clone this repo and cd into the directory:
