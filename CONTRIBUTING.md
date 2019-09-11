@@ -36,7 +36,7 @@ signed the OCA can be accepted.
 1. Fork this repository
 1. Create a branch in your fork to implement the changes. We recommend using
 the issue number as part of your branch name, e.g. `1234-fixes`
-1. Ensure that any documentation is updated with the changes that are required
+1. Ensure that any documentation is updated with the changes that are required test
 by your fix.
 1. Ensure that any samples are updated if the base image has been changed.
 1. Submit the pull request. *Do not leave the pull request blank*. Explain exactly
