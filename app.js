@@ -10,5 +10,5 @@ app.get('/', function(req, res){
 app.get('/health', (req, res) => res.send({"status": "OK", "time": new Date()}))
 var port = process.env.PORT || 8080;
 app.listen(port);
-
+return done (Error ('my error'))
 module.exports = app;
