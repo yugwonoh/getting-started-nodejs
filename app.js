@@ -8,7 +8,7 @@ app.get('/', function(req, res){
     res.end();
 });
 app.get("/error", (req, res) => {
-    res.writeHead(200, { 'Content-Type': 'application/json' });
+    res.writeHead(500, { 'Content-Type': 'application/json' });
     res.end();
 })
 app.get('/health', (req, res) => res.send({"status": "OK", "time": new Date()}))
