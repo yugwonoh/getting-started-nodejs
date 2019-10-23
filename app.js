@@ -15,4 +15,18 @@ app.get('/health', (req, res) => res.send({"status": "OK", "time": new Date()}))
 var port = process.env.PORT || 8080;
 app.listen(port);
 
+setInterval(function(str1, str2) {
+  console.log(str1 + " " + str2 + " "+makeid(10));
+}, 800, "Hello.", "How are you?");
+
+function makeid(length) {
+  var text = "";
+  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+  for (var i = 0; i < length; i++)
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+  return text;
+}
+
 module.exports = app;
