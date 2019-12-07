@@ -16,7 +16,7 @@ var port = process.env.PORT || 8080;
 app.listen(port);
 
 setInterval(function(str1, str2) {
-  console.log(str1 + " " + str2 + " "+makeid(10)+" args "+process.argv);
+  console.log(str1 + " " + str2 + " "+makeid(10)+" args 1 "+process.argv);
 }, 800, "Hello.", "How are you?");
 
 function makeid(length) {
