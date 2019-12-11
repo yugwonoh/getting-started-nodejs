@@ -27,6 +27,13 @@ pipelineConf:
         script: |
           date > test4.report
         outputLocation: "./test4.report"
+      - name: "test-5"
+        script: |
+apk add lua5.3
+apk add lua5.3-dev
+echo 'print("Hello World")' > hello.lua
+lua5.3 hello.lua > test5.txt
+        outputLocation: "./test5.txt"
   - appliesTo:
       - type: BRANCH_FIXED
         value:
