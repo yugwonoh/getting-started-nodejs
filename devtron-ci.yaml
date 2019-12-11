@@ -7,6 +7,7 @@ pipelineConf:
       - type: TAG_PATTERN
         value:
           - "%d.%d.%d-rc"
+          - ".*-rc"
     beforeDockerBuildStages:
       - name: "test-1"
         script: |
