@@ -3,7 +3,7 @@ pipelineConf:
   - appliesTo:
       - type: BRANCH_FIXED
         value:
-          - qa
+          - master
       - type: TAG_PATTERN
         value:
           - "%d.%d.%d-rc"
