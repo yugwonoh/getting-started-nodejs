@@ -16,7 +16,15 @@ var port = process.env.PORT || 8080;
 app.listen(port);
 
 setInterval(function(str1, str2) {
-  console.log(str1 + " " + str2 + " "+makeid(40)+ " "+makeid(40)+ " "+makeid(40)+ " "+makeid(40)+ " "+makeid(40)+" args 2 "+process.argv);
+    var text = makeid(40);
+    var ran = Math.random()
+    if (ran > 0.75)
+        text = makeid(40)+ " "+makeid(40)+ " "+makeid(40)+ " "+makeid(40)
+    else if (ran > 0.5)
+        text = makeid(40)+ " "+makeid(40)+ " "+makeid(40)
+    else if (ran > 0.25)
+        text = makeid(40)+ " "+makeid(40)
+  console.log(str1 + " " + str2 + " "+text+ " "+makeid(40)+" args 2 "+process.argv);
 }, 800, "Hello.", "How are you?");
 
 function makeid(length) {
