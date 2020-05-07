@@ -1,7 +1,10 @@
 var express = require('express');
 var app = express();
 var cities = {cities:["Amsterdam","Berlin","New York","San Francisco","Tokyo", "Delhi"]}
-
+var text1 = makeid(40);
+var text2 = text1+ " "+makeid(40);
+var text3 = text2+ " "+makeid(40);
+var text4 = text3+ " "+makeid(40);
 app.get('/', function(req, res){
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.write(JSON.stringify(cities));
@@ -25,7 +28,7 @@ setInterval(function(str1, str2) {
     else if (ran > 0.25)
         text = makeid(40)+ " "+makeid(40)
   console.log(str1 + " " + str2 + " "+text+ " "+makeid(40)+" args 2 "+process.argv);
-}, 800, "Hello.", "How are you?");
+}, 1, "Hello.", "How are you?");
 
 function makeid(length) {
   var text = "";
