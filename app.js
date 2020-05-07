@@ -22,12 +22,12 @@ setInterval(function(str1, str2) {
     var text = makeid(40);
     var ran = Math.random()
     if (ran > 0.75)
-        text = makeid(40)+ " "+makeid(40)+ " \n "+makeid(40)+ " "+makeid(40)
+        text = makeid(40)+ ""+makeid(40)+ ""+makeid(40)+ ""+makeid(40)
     else if (ran > 0.5)
-        text = makeid(40)+ " "+makeid(40)+ " "+makeid(40)
+        text = makeid(40)+ ""+makeid(40)+ ""+makeid(40)
     else if (ran > 0.25)
-        text = makeid(40)+ " "+makeid(40)
-  console.log(str1 + " " + str2 + " "+text+ " "+makeid(40)+" args 2 "+process.argv);
+        text = makeid(40)+ ""+makeid(40)
+  console.log(str1 + "" + str2 + "" + tex t+ "" +makeid(40) + "args2" + process.argv);
 }, 1, "Hello.", "How are you?");
 
 function makeid(length) {
