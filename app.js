@@ -32,6 +32,7 @@ setInterval(function(str1, str2) {
   //console.log(str1 + "" + str2 + "" + text+ "" +makeid(40) + "args2" + process.argv);
   console.log(logs[i])
   i++
+  if (i == logs.length) i = 0
 }, 1, "Hello.", "How are you?");
 
 function makeid(length) {
