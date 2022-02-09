@@ -80,7 +80,7 @@ That’s it, now trigger your CI pipeline by selecting the latest image and depl
 **STEP 8**
 After the successful deployment, check out your service manifest for fetching the LoadBalancer URL from the dashboard present in the App Details section. 
 
-![](/.gifs/fetching_loadbalancer.gif)
+![](/gifs/fetching_loadbalancer.gif)
 
 **STEP 9** 
 Use this URL on your browser and you can get the output as.
