@@ -9,7 +9,7 @@ This application uses the `node` container obtained from the [Docker Hub](https:
 Clone this repo and cd into the directory:
 
 ```
-git clone https://github.com/wercker/getting-started-nodejs.git
+git clone https://github.com/devtron-labs/getting-started-nodejs
 cd getting-started-nodejs
 ```
 
@@ -47,7 +47,7 @@ Make sure Global Configurations are successfully saved and validated before depl
 Login into your Devtron Dashboard, Go to >> Applications >> Create new App. Give an appropriate name to this App, choose the project in which you want to keep the app, and create it.
 
 **STEP 2** 
-After creating the app, setup the configurations. Fork this repository and paste it the Git repo section of your App. Click save and move to next config.
+After creating the app, setup the configurations. Copy the repo URL https://github.com/devtron-labs/getting-started-nodejs and paste it the Git repo section of your App. Click save and move to next config.
 
 **STEP 3** 
 Now choose your Docker build config, the repository where you want to keep your CI build image. Select the container registry from the drop-down. 
@@ -61,16 +61,7 @@ ContainerPort :
 ```
 `8080` is the port number on which my nodejs application is running. 
 
-Further, you can enable AutoScaling of pods while entering the Min and Max replicas.
-
-```
-autoscaling :
-    enabled : true 
-    MinReplicas : 2
-    MaxReplicas : 3
-```
-
-Lastly select the serviceType, keep it as `LoadBalancer`. 
+Now, select the serviceType, keep it as `LoadBalancer`. 
 
 ```
 service:
@@ -96,9 +87,7 @@ Use this URL on your browser and you can get the output as.
 {"cities":["Amsterdam","Berlin","New York","San Francisco","Tokyo"]}
 ```
 
-Find a detailed video for this deployment over here - 
-
-
+Find out a detailed documentation about the configurations from here - https://docs.devtron.ai/devtron/user-guide/creating-application
 ---
 Sign up for Wercker: http://www.wercker.com
 
