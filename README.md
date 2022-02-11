@@ -1,7 +1,7 @@
 # getting-started-nodejs
 
 [![wercker status](https://app.wercker.com/status/7b1a402dd00d57fc9abddf9eb5161675/s "wercker status")](https://app.wercker.com/project/bykey/7b1a402dd00d57fc9abddf9eb5161675)
- ample application in Javascript on NodeJS for Wercker
+Sample application in Javascript on NodeJS for Wercker
 
 This application uses the `node` container obtained from the [Docker Hub](https://hub.docker.com/_/node/)
 
@@ -60,6 +60,18 @@ ContainerPort :
     servicePort : 80
 ```
 `8080` is the port number on which my nodejs application is running. 
+
+Set the resource limits & requests as given below -
+
+```
+resources:
+    limits:
+        cpu: "0.5"
+        memory: 50Mi
+    requests:
+        cpu: "0.1"
+        memory: 10Mi
+```
 
 Now, select the serviceType, keep it as `LoadBalancer`. 
 
