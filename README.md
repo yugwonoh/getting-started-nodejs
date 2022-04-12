@@ -1,6 +1,7 @@
 # getting-started-nodejs
 
-[![Demo Video](https://img.youtube.com/vi/9u-pKiWV-tM/0.jpg)](https://www.youtube.com/watch?v=9u-pKiWV-tM&t=2s)
+[![Demo Video](https://user-images.githubusercontent.com/71125043/162990352-93313d53-0b06-4565-9ed6-a55750002942.png)](https://www.youtube.com/watch?v=9u-pKiWV-tM&t=2s)
+
 
 This application uses the `node` container obtained from the [Docker Hub](https://hub.docker.com/_/node/)
 
